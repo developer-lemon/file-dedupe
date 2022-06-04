@@ -20,9 +20,9 @@ module.exports = async function dedupe(argv) {
       if (hashes.has(hash)) {
         repeatFiles.push(item);
         if (argv.remove) {
-          rm(path, () => console.log(`已删除${repeatFiles.legnth}个重复文件`));
+          rm(path, () => console.log(`已删除${repeatFiles.length}个重复文件`));
         } else {
-          console.log(`已找到${repeatFiles.legnth}个重复文件`);
+          console.log(`已找到${repeatFiles.length}个重复文件`);
         }
         continue;
       }
