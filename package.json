@@ -1,6 +1,6 @@
 {
   "name": "@nvae/file-dedupe",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "检测目录中的重复文件",
   "author": "rchdg@qq.com",
   "license": "MIT",

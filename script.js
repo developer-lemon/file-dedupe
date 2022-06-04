@@ -21,8 +21,6 @@ module.exports = async function dedupe(argv) {
         repeatFiles.push(item);
         if (argv.remove) {
           rm(path, () => console.log(`已删除${repeatFiles.length}个重复文件`));
-        } else {
-          console.log(`已找到${repeatFiles.length}个重复文件`);
         }
         continue;
       }
