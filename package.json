@@ -1,0 +1,21 @@
+{
+  "name": "@nvae/file-dedupe",
+  "version": "1.0.0",
+  "description": "检测目录中的重复文件",
+  "author": "rchdg@qq.com",
+  "license": "MIT",
+  "keywords": [
+    "检测重复文件",
+    "检测重复图片",
+    "image dedupe",
+    "file dedupe",
+    "dedupe",
+    "nvae"
+  ],
+  "bin": {
+    "nvae-dedupe": "cmd.js"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
